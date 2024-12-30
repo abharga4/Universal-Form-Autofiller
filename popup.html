@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Advanced Form Filler</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <h1>Form Filler</h1>
+  <div id="templateManager">
+    <h2>Templates</h2>
+    <select id="templateSelect"></select>
+    <button id="fillFormButton">Fill Form</button>
+    <button id="editTemplateButton">Edit</button>
+  </div>
+  <div id="errorContainer"></div>
+  <div id="createTemplate">
+    <h2>Create/Edit Template</h2>
+    <input type="text" id="templateName" placeholder="Template Name">
+    <textarea id="templateData" placeholder="Template Data (JSON)"></textarea>
+    <button id="addTemplateButton">Save Template</button>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
